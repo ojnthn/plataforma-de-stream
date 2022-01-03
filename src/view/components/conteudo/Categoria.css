@@ -1,0 +1,29 @@
+.categoria {
+    margin-bottom: 30px;
+}
+
+.categoria h2 {
+    margin: 0 0 0 30px;
+}
+
+.categoria--linha-area {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.categoria--linha {
+    width: 99999999px;
+}
+.categoria--linha--item {
+    display: inline-block;
+    width: 150px;
+}
+.categoria--linha--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+    display: block;
+}
+.categoria--linha--item img:hover {
+    transform: scale(1);
+    cursor: pointer;
+}
